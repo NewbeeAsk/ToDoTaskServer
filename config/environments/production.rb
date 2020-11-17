@@ -70,7 +70,7 @@ Rails.application.configure do
       :domain => "gmail.com",
       :authentication => :login,
       :user_name => "romannosadchuk@gmail.com",
-      :password => ENV['12021996ROma']
+      :password => '12021996ROma'
   }
 
   # Ignore bad email addresses and do not raise email delivery errors.
