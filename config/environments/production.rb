@@ -61,6 +61,7 @@ Rails.application.configure do
   # config.active_job.queue_name_prefix = "newtest_production"
 
   config.action_mailer.perform_caching = false
+  config.action_mailer.default_url_options = { :host => 'to-do-task-server.herokuapp.com' }
 
   # Ignore bad email addresses and do not raise email delivery errors.
   # Set this to true and configure the email server for immediate delivery to raise delivery errors.
@@ -102,7 +103,7 @@ Rails.application.configure do
   # class timestamps to determine how long to wait before reading from the
   # replica.
   #
-  # By default Rails will store a last write timestamp in the session. The
+  # By default Rails will store a last write timaction_mailerestamp in the session. The
   # DatabaseSelector middleware is designed as such you can define your own
   # strategy for connection switching and pass that into the middleware through
   # these configuration options.
