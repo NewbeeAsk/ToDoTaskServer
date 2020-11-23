@@ -70,7 +70,7 @@ Rails.application.configure do
       :port  => 587,
       :domain  => 'heroku.com',
       :authentication => "plain",
-      :user_name => "kostul.velosiped@gmail.com",
+      :user_name => "testtaskconfirm@gmail.com",
       :password => "12021996ROma"
   }
   config.action_mailer.perform_deliveries = true
